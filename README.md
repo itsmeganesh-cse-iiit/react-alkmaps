@@ -19,7 +19,13 @@ import ReactAlkMaps from "react-alkmaps";
 
 class Example extends Component {
   render() {
-    return <ReactAlkMaps />;
+    return (
+      <ReactAlkMaps
+        onLoad={this.onLoad}
+        onError={this.onError}
+        url="https://maps.alk.com/api/1.2/alkmaps.js"
+      />
+    );
   }
 }
 ```

@@ -32,7 +32,7 @@ export default class App extends Component {
           onError={this.onError}
           url="https://maps.alk.com/api/1.2/alkmaps.js"
         />
-        {this.state.scriptLoaded ? "bannu" : "pavani"}
+        {/* {this.state.scriptLoaded ? "bannu" : "pavani"} */}
       </div>
     );
   }
