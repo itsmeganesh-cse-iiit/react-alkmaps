@@ -1,13 +1,39 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import ExampleComponent from 'react-alkmaps'
+import ReactAlkMaps from "react-alkmaps";
 
 export default class App extends Component {
-  render () {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      scriptLoaded: false,
+      scriptError: false
+    };
+  }
+
+  onLoad = map => {
+    this.setState({
+      scriptLoaded: true
+    });
+    console.log("Got it Gani", map);
+  };
+  onError = error => {
+    console.log(error);
+    this.setState({
+      scriptError: true
+    });
+  };
+  render() {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <ReactAlkMaps
+          onLoad={this.onLoad}
+          onError={this.onError}
+          url="https://maps.alk.com/api/1.2/alkmaps.js"
+        />
+        {this.state.scriptLoaded ? "bannu" : "pavani"}
       </div>
-    )
+    );
   }
 }

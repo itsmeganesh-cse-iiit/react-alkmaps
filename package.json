@@ -1,8 +1,19 @@
 {
   "name": "react-alkmaps",
-  "version": "1.0.0",
-  "description": "",
-  "author": "itsmeganesh-cse-iiit",
+  "version": "0.0.1-prerelease.1",
+  "description": "React AlkMaps integration",
+  "keywords": [
+    "alkmaps",
+    "react-alkmaps",
+    "package",
+    "itsmeganeshcse",
+    "maps",
+    "ganesh",
+    "ganesh koilada",
+    "alk maps"
+  ],
+  "author": "Ganesh Koilada",
+  "homepage": "itsmeganesh-cse-iiit/react-alkmaps#readme",
   "license": "MIT",
   "repository": "itsmeganesh-cse-iiit/react-alkmaps",
   "main": "dist/index.js",
