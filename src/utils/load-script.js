@@ -1,3 +1,8 @@
+/**
+ * @param  {string} url AlkMaps script url
+ * @param  {func} onLoad Invoked after script load
+ * @param  {func} onError Invoked after script fail
+ */
 export const loadScript = (url, onLoad, onError) => {
   const existingScript = document.getElementById("mapContainer");
   if (url) {
@@ -18,11 +23,12 @@ export const loadScript = (url, onLoad, onError) => {
 
     if (existingScript && onLoad) onLoad();
   } else {
-    console.warn({ code: "E404", msg: ERROR_CODES.E404 });
     if (onError) onError({ code: "E404", msg: ERROR_CODES.E404 });
+    throw new Error(`${"E404"}- ${ERROR_CODES.E404}`);
   }
 };
 
 const ERROR_CODES = {
-  E404: "Script URL not Provided"
+  E404: "Script URL not provided"
 };
+Object.freeze(ERROR_CODES);
