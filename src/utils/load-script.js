@@ -4,22 +4,22 @@
  * @param  {func} onError Invoked after script fail
  */
 export const loadScript = (url, onLoad, onError) => {
-  const existingScript = document.getElementById("mapContainer");
+  const existingScript = document.getElementById("mainMap");
   if (url) {
-    if (!existingScript) {
-      const script = document.createElement("script");
-      script.src = url;
-      script.id = "alkmaps";
-      document.head.appendChild(script);
+    // if (!existingScript) {
+    const script = document.createElement("script");
+    script.src = url;
+    script.id = "alkmaps";
+    document.head.appendChild(script);
 
-      script.onload = () => {
-        if (onLoad) onLoad(window.ALKMaps);
-      };
+    script.onload = () => {
+      if (onLoad) onLoad(window.ALKMaps);
+    };
 
-      script.onerror = error => {
-        if (onError) onError(error);
-      };
-    }
+    script.onerror = error => {
+      if (onError) onError(error);
+    };
+    // }
 
     if (existingScript && onLoad) onLoad();
   } else {
