@@ -23,8 +23,8 @@ npm install --save react-alkmaps
 
 ## Usage
 
-<details>
-<summary>State data</summary>
+### State data
+
 ```jsx
 this.state = {
       scriptLoaded: false,
@@ -69,8 +69,7 @@ this.state = {
       }
     };
   }
-  ```
-</details>
+```
 
 ```jsx
 import React, { Component } from "react";
@@ -110,8 +109,6 @@ class Example extends Component {
 
 ## Props
 
-### ReactAlkMaps component
-
 <details>
   <summary><b>ReactAlkMaps component</b></summary>
 
@@ -124,19 +121,20 @@ class Example extends Component {
 
 </details>
 
-### VectorLayer component
-
 <details>
-  <summary>VectorLayer component</summary>
+  <summary><b>VectorLayer component</b></summary>
+
 | Field | Type   |   Default    |    Description    |
 | ----- | ------ | :----------: | :---------------: |
 | label | string | Vector Layer | Vector Layer name |
+
 </details>
 
 ### VectorPoint component
 
 <details>
-  <summary>VectorPoint component</summary>
+  <summary><b>VectorPoint component<b/></summary>
+  
 | Field   | Type                 |                              Default                               |            Description             |
 | ------- | -------------------- | :----------------------------------------------------------------: | :--------------------------------: |
 | latlong | object               |                                                                    |         Vector Layer name          |
@@ -144,6 +142,7 @@ class Example extends Component {
 | data    | svg                  |                  undefined OR `{svg: svgContent}`                  |     To draw using svg content      |
 |         | image                | {`externalGraphic:imageURL,...`} OR `As mentioned in alkmaps site` | To draw vector with external image |
 |         | vector               |     {`pointRadius: 10,...`} OR `As mentioned in Alk maps site`     |           To draw vector           |
+
 </details>
 
 For complete documentation [visit this site](https://itsmeganeshcse.gitbook.io/react-alkmaps/)
