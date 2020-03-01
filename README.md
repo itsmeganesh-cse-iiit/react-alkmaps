@@ -23,7 +23,7 @@ npm install --save react-alkmaps
 
 ## Usage
 
-```jsx
+````jsx
 import React, { Component } from "react";
 
 import ReactAlkMaps, { VectorLayer, VectorPoint } from "react-alkmaps";
@@ -31,8 +31,10 @@ import ReactAlkMaps, { VectorLayer, VectorPoint } from "react-alkmaps";
 class Example extends Component {
   constructor(props) {
     super(props);
-
-    this.state = {
+<details>
+  <summary>State</summary>
+  ```jsx
+  this.state = {
       scriptLoaded: false,
       scriptError: false,
       config: {
@@ -75,32 +77,36 @@ class Example extends Component {
       }
     };
   }
+````
 
-  onLoad = map => {
-    this.setState({
-      scriptLoaded: true
-    });
-  };
-  onError = error => {
-    this.setState({
-      scriptError: true
-    });
-  };
-  render() {
-    const { vectorPointData, config } = this.state;
-    return (
-      <div>
-        <ReactAlkMaps {...config}>
-          <VectorLayer label="VectorLayer">
-            <VectorPoint {...vectorPointData.svgVector} />
-            <VectorPoint {...vectorPointData.vector} />
-            <VectorPoint {...vectorPointData.imageVector} />
-          </VectorLayer>
-        </ReactAlkMaps>
-      </div>
-    );
-  }
+</details>
+
+onLoad = map => {
+this.setState({
+scriptLoaded: true
+});
+};
+onError = error => {
+this.setState({
+scriptError: true
+});
+};
+render() {
+const { vectorPointData, config } = this.state;
+return (
+<div>
+<ReactAlkMaps {...config}>
+<VectorLayer label="VectorLayer">
+<VectorPoint {...vectorPointData.svgVector} />
+<VectorPoint {...vectorPointData.vector} />
+<VectorPoint {...vectorPointData.imageVector} />
+</VectorLayer>
+</ReactAlkMaps>
+</div>
+);
 }
+}
+
 ```
 
 ## Props
@@ -108,7 +114,7 @@ class Example extends Component {
 ### ReactAlkMaps component
 
 <details>
-  <summary>ReactAlkMaps component</summary>
+  <summary><b>ReactAlkMaps component</b></summary>
 
 | Field   | Type            |  Default   |        Description        |
 | ------- | --------------- | :--------: | :-----------------------: |
@@ -121,12 +127,17 @@ class Example extends Component {
 
 ### VectorLayer component
 
+<details>
+  <summary>VectorLayer component</summary>
 | Field | Type   |   Default    |    Description    |
 | ----- | ------ | :----------: | :---------------: |
 | label | string | Vector Layer | Vector Layer name |
+</details>
 
 ### VectorPoint component
 
+<details>
+  <summary>VectorPoint component</summary>
 | Field   | Type                 |                              Default                               |            Description             |
 | ------- | -------------------- | :----------------------------------------------------------------: | :--------------------------------: |
 | latlong | object               |                                                                    |         Vector Layer name          |
@@ -134,6 +145,7 @@ class Example extends Component {
 | data    | svg                  |                  undefined OR `{svg: svgContent}`                  |     To draw using svg content      |
 |         | image                | {`externalGraphic:imageURL,...`} OR `As mentioned in alkmaps site` | To draw vector with external image |
 |         | vector               |     {`pointRadius: 10,...`} OR `As mentioned in Alk maps site`     |           To draw vector           |
+</details>
 
 For complete documentation [visit this site](https://itsmeganeshcse.gitbook.io/react-alkmaps/)
 
@@ -156,3 +168,4 @@ Give a :star: if this project helped you in any way!
 
 Copyright © 2020 [Ganesh Koilada](https://github.com/itsmeganesh-cse-iiit).
 This project is [MIT licensed](#).
+```
