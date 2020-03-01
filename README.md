@@ -128,7 +128,7 @@ class Example extends Component {
 
 ## ChangeLog
 
-[Click here](https://github.com/itsmeganesh-cse-iiit/react-alkmaps/master/CHANGELOG.md) to view all changeLog Details
+[Click here](https://github.com/itsmeganesh-cse-iiit/react-alkmaps/blob/master/README.md) to view all changeLog Details
 
 ## Contributing
 
