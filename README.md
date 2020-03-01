@@ -4,7 +4,7 @@
 
 >
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE) [![Build](https://travis-ci.org/itsmeganesh-cse-iiit/react-alkmaps.svg?branch=master) ![NPM](https://img.shields.io/npm/v/react-alkmaps.svg)](https://www.npmjs.com/package/react-alkmaps) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-yellow.svg)](https://standardjs.com) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blueviolet.svg)](#) [![npm downloads](https://img.shields.io/npm/dm/react-alkmaps.svg?style=flat-square)](https://www.npmjs.com/package/react-alkmaps)[![Gitter][gitter-image]][gitter-url]
+[![GitHub license][licence-image]][licence-url] [![Build][build-image]][build-url] [![NPM][npm-image]][npm-url] [![JavaScript Style Guide][codestyle-image]][codestyle-url] [![PRs Welcome][pr-image]][pr-url] [![npm downloads][downloads-image]][downloads-url] [![Gitter][gitter-image]][gitter-url]
 
 ## react-alkmaps
 
@@ -168,3 +168,15 @@ This project is [MIT licensed](#).
 
 [gitter-image]: https://badges.gitter.im/Join%20Chat.svg
 [gitter-url]: https://gitter.im/react-alkmaps/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+[build-image]: https://travis-ci.org/itsmeganesh-cse-iiit/react-alkmaps.svg?branch=master
+[build-url]: "#"
+[licence-image]: https://img.shields.io/badge/license-MIT-blue.svg
+[licence-url]: https://github.com/facebook/react/blob/master/LICENSE
+[npm-image]: https://img.shields.io/npm/v/react-alkmaps.svg
+[npm-url]: https://www.npmjs.com/package/react-alkmaps
+[codestyle-image]: https://img.shields.io/badge/code_style-standard-yellow.svg
+[codestyle-url]: https://standardjs.com
+[pr-image]: https://img.shields.io/badge/PRs-welcome-blueviolet.svg
+[pr-url]: "#"
+[downloads-image]: https://img.shields.io/npm/dm/react-alkmaps.svg?style=flat-square
+[downloads-url]: https://www.npmjs.com/package/react-alkmaps
