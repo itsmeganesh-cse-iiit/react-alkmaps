@@ -6,6 +6,10 @@
 
 [![Build](https://travis-ci.org/itsmeganesh-cse-iiit/react-alkmaps.svg?branch=master) ![NPM](https://img.shields.io/npm/v/react-alkmaps.svg)](https://www.npmjs.com/package/react-alkmaps) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+## react-alkmaps
+
+For full library documentation [visit this site](https://itsmeganeshcse.gitbook.io/react-alkmaps/)
+
 ## Features added
 
 - [Adding Vector Layer](https://github.com/itsmeganesh-cse-iiit/react-alkmaps/blob/master/CHANGELOG.md)
@@ -125,6 +129,8 @@ class Example extends Component {
 | data    | svg                  |                  undefined OR `{svg: svgContent}`                  |     To draw using svg content      |
 |         | image                | {`externalGraphic:imageURL,...`} OR `As mentioned in alkmaps site` | To draw vector with external image |
 |         | vector               |     {`pointRadius: 10,...`} OR `As mentioned in Alk maps site`     |           To draw vector           |
+
+For complete documentation [visit this site](https://itsmeganeshcse.gitbook.io/react-alkmaps/)
 
 ## ChangeLog
 
