@@ -107,12 +107,17 @@ class Example extends Component {
 
 ### ReactAlkMaps component
 
+<details>
+  <summary>ReactAlkMaps component</summary>
+
 | Field   | Type            |  Default   |        Description        |
 | ------- | --------------- | :--------: | :-----------------------: |
 | onLoad  | func            |            | Invoked after script load |
 | onError | func            |            | Invoked after script fail |
 | url     | optional string | AlkMaps V2 |        AlkMaps URL        |
 | apikey  | string          |            |      AlkMaps API key      |
+
+</details>
 
 ### VectorLayer component
 
