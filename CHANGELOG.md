@@ -8,4 +8,5 @@ All notable changes to this project will be documented in this file.
 
 #### Added
 
-- Vector Layer and Vectors support (types=vector/image/svg)
+- Adding Vector Layer
+- Adding Vector Points to Vector Layer - Vector point , external image and svg supprot

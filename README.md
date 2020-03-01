@@ -8,8 +8,8 @@
 
 ## Features added
 
-- [Adding Vector Layer](#)
-- [Adding Vector Points to Vector Layer](#) - Vector point , external image and svg supprot
+- [Adding Vector Layer](https://github.com/itsmeganesh-cse-iiit/react-alkmaps/blob/master/CHANGELOG.md)
+- [Adding Vector Points to Vector Layer](https://github.com/itsmeganesh-cse-iiit/react-alkmaps/blob/master/CHANGELOG.md) - Vector point , external image and svg supprot
 
 ## Install
 
@@ -128,7 +128,7 @@ class Example extends Component {
 
 ## ChangeLog
 
-[Click here](https://github.com/itsmeganesh-cse-iiit/react-alkmaps/blob/master/README.md) to view all changeLog Details
+[Click here](https://github.com/itsmeganesh-cse-iiit/react-alkmaps/blob/master/CHANGELOG.md) to view all changeLog Details
 
 ## Contributing
 
