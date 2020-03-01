@@ -6,10 +6,6 @@
 
 [![Build](https://travis-ci.org/itsmeganesh-cse-iiit/react-alkmaps.svg?branch=master) ![NPM](https://img.shields.io/npm/v/react-alkmaps.svg)](https://www.npmjs.com/package/react-alkmaps) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-## Support react-alkmaps
-
-To support react-alkmaps visit [SUPPORT](https://www.patreon.com/ganeshkoilada) page.
-
 ## Features added
 
 - [Adding Vector Layer](#)
@@ -38,8 +34,7 @@ class Example extends Component {
       config: {
         onLoad: this.onLoad,
         onError: this.onError,
-        // url="https://maps.alk.com/api/1.2/alkmaps.js"
-        //! Copy rights alkmaps api key Remove and place your own API Key
+        // url="https://maps.alk.com/api/1.2/alkmaps.js" // Optional prop
         // apikey: "",
         center: { lat: -74.655522, long: 40.367494 }
       },
@@ -106,7 +101,7 @@ class Example extends Component {
 
 ## Props
 
-### <ReactAlkMaps/>
+### ReactAlkMaps component
 
 | Field   | Type            |  Default   |        Description        |
 | ------- | --------------- | :--------: | :-----------------------: |
@@ -115,21 +110,36 @@ class Example extends Component {
 | url     | optional string | AlkMaps V2 |        AlkMaps URL        |
 | apikey  | string          |            |      AlkMaps API key      |
 
-### <VectorLayer/>
+### VectorLayer component
 
 | Field | Type   |   Default    |    Description    |
 | ----- | ------ | :----------: | :---------------: |
 | label | string | Vector Layer | Vector Layer name |
 
-### <VectorPoint/>
+### VectorPoint component
 
-| Field   | Type                 |                                                                             Default                                                                              |            Description             |
-| ------- | -------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------: |
-| latlong | object               |                                                                                                                                                                  |         Vector Layer name          |
-| type    | `undefined` or `svg` |                                                                            undefined                                                                             |        Vector drawing type         |
-| data    | svg                  |                                                                 undefined OR `{svg: svgContent}`                                                                 |     To draw using svg content      |
-|         | image                |              {`externalGraphic`:imageURL,`graphicHeight`:20,`graphicWidth`:20,`label`:"label",`labelYOffset`:20} OR `As mentioned in alkmaps site`               | To draw vector with external image |
-|         | vector               | {`pointRadius`: 10,`fillColor`: "red",`label`: "Vector Point",`labelYOffset`: 20,`fontWeight`: "bold",`fontColor`: "#0000AA"} OR `As mentioned in Alk maps site` |           To draw vector           |
+| Field   | Type                 |                              Default                               |            Description             |
+| ------- | -------------------- | :----------------------------------------------------------------: | :--------------------------------: |
+| latlong | object               |                                                                    |         Vector Layer name          |
+| type    | `undefined` or `svg` |                             undefined                              |        Vector drawing type         |
+| data    | svg                  |                  undefined OR `{svg: svgContent}`                  |     To draw using svg content      |
+|         | image                | {`externalGraphic:imageURL,...`} OR `As mentioned in alkmaps site` | To draw vector with external image |
+|         | vector               |     {`pointRadius: 10,...`} OR `As mentioned in Alk maps site`     |           To draw vector           |
+
+## ChangeLog
+
+[Click here](https://github.com/itsmeganesh-cse-iiit/react-alkmaps/master/CHANGELOG.md) to view all changeLog Details
+
+## Contributing
+
+Contributions, issues and feature requests are welcome.
+Feel free to check [issues page](https://github.com/itsmeganesh-cse-iiit/react-alkmaps/issues) if you want to contribute.
+
+## Show your support
+
+Give a :star: if this project helped you in any way!
+
+[![patreon](https://img.icons8.com/cotton/30/000000/donate--v2.png)](https://www.patreon.com/ganeshkoilada) [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/ganeshkoilada)
 
 ## License
 
