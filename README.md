@@ -4,7 +4,7 @@
 
 >
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE) [![Build](https://travis-ci.org/itsmeganesh-cse-iiit/react-alkmaps.svg?branch=master) ![NPM](https://img.shields.io/npm/v/react-alkmaps.svg)](https://www.npmjs.com/package/react-alkmaps) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-yellow.svg)](https://standardjs.com) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blueviolet.svg)](#) [![npm downloads](https://img.shields.io/npm/dm/react-alkmaps.svg?style=flat-square)](https://www.npmjs.com/package/react-alkmaps) [Gitter][gitter-image]][gitter-url]
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE) [![Build](https://travis-ci.org/itsmeganesh-cse-iiit/react-alkmaps.svg?branch=master) ![NPM](https://img.shields.io/npm/v/react-alkmaps.svg)](https://www.npmjs.com/package/react-alkmaps) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-yellow.svg)](https://standardjs.com) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blueviolet.svg)](#) [![npm downloads](https://img.shields.io/npm/dm/react-alkmaps.svg?style=flat-square)](https://www.npmjs.com/package/react-alkmaps)[![Gitter][gitter-image]][gitter-url]
 
 ## react-alkmaps
 
