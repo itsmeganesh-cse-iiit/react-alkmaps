@@ -60,6 +60,9 @@ export default class ReactAlkMaps extends Component {
       parent: this
     };
     let childrenWithProps = addPropsToChildren(children, childProps);
+    childrenWithProps = childrenWithProps.filter(
+      child => child.props.label === MAP_ITEMS.VECTORLAYER
+    );
     return (
       <div>
         <div
@@ -102,3 +105,8 @@ ReactAlkMaps.defaultProps = {
     long: 40.367494
   }
 };
+
+const MAP_ITEMS = {
+  VECTORLAYER: "VectorLayer"
+};
+Object.freeze(MAP_ITEMS);
