@@ -14,8 +14,11 @@ For suggestions / request features / bugs please ping us on [gitter][gitter-url]
 
 ## Features added
 
-- [Adding Vector Layer](https://github.com/itsmeganesh-cse-iiit/react-alkmaps/blob/master/CHANGELOG.md)
-- [Adding Vector Points to Vector Layer](https://github.com/itsmeganesh-cse-iiit/react-alkmaps/blob/master/CHANGELOG.md) - Vector point , external image and svg supprot
+- [Multiple Layer Support][change-log-url]
+- [Adding Vector Layer][change-log-url]
+- [Adding Vector Points to Vector Layer][change-log-url]- Vector point , external image and svg supprot
+- [Adding Marker Layer][change-log-url]
+- [Adding Marker to Marker Layer][change-log-url] - hover only,(popup and click events in next release)
 
 ## Install
 
@@ -187,3 +190,4 @@ This project is [MIT licensed](#).
 [paypal-url]: https://www.paypal.me/GaneshKoilada
 [minified-image]: https://badgen.net/bundlephobia/min/react-alkmaps
 [minified-url]: https://www.npmjs.com/package/react-alkmaps
+[change-log-url]: https://github.com/itsmeganesh-cse-iiit/react-alkmaps/blob/master/CHANGELOG.md
