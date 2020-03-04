@@ -4,7 +4,7 @@
 
 >
 
-[![GitHub license][licence-image]][licence-url] [![Build][build-image]][build-url] [![NPM][npm-image]][npm-url] [![JavaScript Style Guide][codestyle-image]][codestyle-url] [![PRs Welcome][pr-image]][pr-url] [![npm downloads][downloads-image]][downloads-url] [![Gitter][gitter-image]][gitter-url]
+[![GitHub license][licence-image]][licence-url] [![Build][build-image]][build-url] [![NPM][npm-image]][npm-url] [![JavaScript Style Guide][codestyle-image]][codestyle-url] [![PRs Welcome][pr-image]][pr-url] [![npm downloads][downloads-image]][downloads-url] [![minified][minified-image]][minified-url] [![Gitter][gitter-image]][gitter-url]
 
 ## react-alkmaps
 
@@ -185,3 +185,5 @@ This project is [MIT licensed](#).
 [downloads-image]: https://img.shields.io/npm/dm/react-alkmaps.svg?style=flat-square
 [downloads-url]: https://www.npmjs.com/package/react-alkmaps
 [paypal-url]: https://www.paypal.me/GaneshKoilada
+[minified-image]: https://badgen.net/bundlephobia/min/react-alkmaps
+[minified-url]: https://www.npmjs.com/package/react-alkmaps
