@@ -36,16 +36,16 @@ export const createInitMapProjection = mapRef => {
 
 /**
  * @param  {Object} map AlkMap Instance
- * @param  {long} lon longitude
- * @param  {long} lat lattitude
+ * @param  {object} center lat long object
+ * @param  {integer} zoom map zoom level
  */
-export const setCenter = (map, lon, lat) => {
+export const setCenter = (map, center, zoom) => {
   map.setCenter(
-    new ALKMaps.LonLat(lon, lat).transform(
+    new ALKMaps.LonLat(center.lat, center.long).transform(
       new ALKMaps.Projection("EPSG:4326"),
       map.getProjectionObject()
     ),
-    9
+    zoom
   );
 };
 /**

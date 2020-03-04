@@ -37,16 +37,15 @@ export default class ReactAlkMaps extends Component {
   };
 
   mapInit = () => {
-    const { apikey } = this.props;
+    const { apikey, center, zoom } = this.props;
     if (apikey) {
-      const { lat, long } = this.props.center;
       ALKMaps = window.ALKMaps;
       map = createInitMapProjection(this.mainMap.current);
       this.map = map;
       ALKMaps.APIKey = apikey;
       let layer = createBaseMap();
       map.addLayers([layer]);
-      setCenter(map, lat, long);
+      setCenter(map, center, zoom);
     } else {
       throw new Error("No Api Key provided");
     }
@@ -99,7 +98,8 @@ ReactAlkMaps.propTypes = {
   center: PropTypes.shape({
     lat: PropTypes.number.isRequired,
     long: PropTypes.number.isRequired
-  })
+  }),
+  zoom: PropTypes.number
 };
 
 ReactAlkMaps.defaultProps = {
@@ -110,7 +110,8 @@ ReactAlkMaps.defaultProps = {
   center: {
     lat: -74.655522,
     long: 40.367494
-  }
+  },
+  zoom: 2
 };
 
 const MAP_ITEMS = {

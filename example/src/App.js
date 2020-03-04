@@ -19,7 +19,8 @@ export default class App extends Component {
         onError: this.onError,
         // url="https://maps.alk.com/api/1.2/alkmaps.js"
         apikey: "17CA0885B03A6B4FADBDC3D1A51DC0BD",
-        center: { lat: -74.655522, long: 40.367494 }
+        center: { lat: -74.655522, long: 40.367494 },
+        zoom: 9
       },
       markers: {
         marker: {
