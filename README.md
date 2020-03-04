@@ -65,7 +65,7 @@ this.state = {
     imageVector: {
       latlong: { lat: -73.655522, long: 40.367494 },
       data: {
-        externalGraphic: "https://www.w3schools.com/w3css/img_avatar3.png",
+        externalGraphic: "www.w3schools.com/w3css/img_avatar3.png",
         graphicHeight: 27,
         graphicWidth: 32,
         label: "External Image",
@@ -184,3 +184,4 @@ This project is [MIT licensed](#).
 [pr-url]: "#"
 [downloads-image]: https://img.shields.io/npm/dm/react-alkmaps.svg?style=flat-square
 [downloads-url]: https://www.npmjs.com/package/react-alkmaps
+[paypal-url]: https://www.paypal.me/GaneshKoilada
