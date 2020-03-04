@@ -8,6 +8,9 @@ export const createLayer = (type, name) => {
     case LAYER_TYPES.VECTORLAYER: {
       return new ALKMaps.Layer.Vector(name);
     }
+    case LAYER_TYPES.MARKER_LAYER: {
+      return new ALKMaps.Layer.Markers(name);
+    }
     default: {
       throw new Error(`${"L404"}- ${MAP_ERRORS.L404}`);
     }
@@ -61,7 +64,8 @@ export const addPropsToChildren = (children, props) => {
 };
 
 const LAYER_TYPES = {
-  VECTORLAYER: "vector"
+  VECTORLAYER: "vector",
+  MARKER_LAYER: "marker"
 };
 
 const MAP_ERRORS = {

@@ -10,6 +10,8 @@ import {
 // import styles from "./styles.css";
 import VectorLayer from "./components/VectorLayer/VectorLayer";
 import VectorPoint from "./components/VectorPoint/VectorPoint";
+import MarkerLayer from "./components/MarkerLayer/MarkerLayer";
+import Marker from "./components/Marker/Marker";
 let ALKMaps = null; // ! Alk Maps Global Object
 let map = null; //! Alk Map instance
 
@@ -60,9 +62,12 @@ export default class ReactAlkMaps extends Component {
       parent: this
     };
     let childrenWithProps = addPropsToChildren(children, childProps);
+    console.log(childrenWithProps);
     if (childrenWithProps) {
       childrenWithProps = childrenWithProps.filter(
-        child => child.type.name === MAP_ITEMS.VECTORLAYER
+        child =>
+          child.type.name === MAP_ITEMS.VECTORLAYER ||
+          child.type.name === MAP_ITEMS.MARKERLAYER
       );
     }
     return (
@@ -84,7 +89,7 @@ export default class ReactAlkMaps extends Component {
   }
 }
 
-export { VectorLayer, VectorPoint };
+export { VectorLayer, VectorPoint, MarkerLayer, Marker };
 
 ReactAlkMaps.propTypes = {
   url: PropTypes.string,
@@ -109,6 +114,7 @@ ReactAlkMaps.defaultProps = {
 };
 
 const MAP_ITEMS = {
-  VECTORLAYER: "VectorLayer"
+  VECTORLAYER: "VectorLayer",
+  MARKERLAYER: "MarkerLayer"
 };
 Object.freeze(MAP_ITEMS);

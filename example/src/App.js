@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 
-import ReactAlkMaps, { VectorLayer, VectorPoint } from "react-alkmaps";
+import ReactAlkMaps, {
+  VectorLayer,
+  VectorPoint,
+  MarkerLayer,
+  Marker
+} from "react-alkmaps";
 
 export default class App extends Component {
   constructor(props) {
@@ -13,10 +18,19 @@ export default class App extends Component {
         onLoad: this.onLoad,
         onError: this.onError,
         // url="https://maps.alk.com/api/1.2/alkmaps.js"
-        apikey: "",
+        apikey: "17CA0885B03A6B4FADBDC3D1A51DC0BD",
         center: { lat: -74.655522, long: 40.367494 }
       },
-      vectorPointData: {
+      markers: {
+        marker: {
+          latlong: { lat: -73.655522, long: 40.667494 },
+          data: {
+            label: "New Marker",
+            mouseOver: true
+          }
+        }
+      },
+      vectors: {
         svgVector: {
           latlong: { lat: -73.965522, long: 40.367494 },
           type: "svg",
@@ -61,17 +75,21 @@ export default class App extends Component {
     });
   };
   render() {
-    const { vectorPointData, config } = this.state;
+    const { vectors, config, markers } = this.state;
     return (
       <div>
         <ReactAlkMaps {...config}>
           <VectorLayer label="VectorLayer">
-            <VectorPoint {...vectorPointData.vector} />
+            <VectorPoint {...vectors.vector} />
           </VectorLayer>
           <VectorLayer label="VectorLayer">
-            <VectorPoint {...vectorPointData.imageVector} />
-            <VectorPoint {...vectorPointData.svgVector} />
+            <VectorPoint {...vectors.imageVector} />
+            <VectorPoint {...vectors.svgVector} />
           </VectorLayer>
+
+          <MarkerLayer label="MarkerLayer1">
+            <Marker {...markers.marker} />
+          </MarkerLayer>
         </ReactAlkMaps>
       </div>
     );
