@@ -10,6 +10,8 @@
 
 For full library documentation [visit this site](https://itsmeganeshcse.gitbook.io/react-alkmaps/)
 
+For suggestions / request features / bugs please ping us on [gitter][gitter-url]
+
 ## Features added
 
 - [Adding Vector Layer](https://github.com/itsmeganesh-cse-iiit/react-alkmaps/blob/master/CHANGELOG.md)
@@ -42,9 +44,11 @@ this.state = {
       type: "svg",
       data: {
         svg:
-          "<svg xmlns='http://www.w3.org/2000/svg' >' +
-          "<circle id='svgCircle' stroke='black' fill='yellow' cx='16' cy='16' r='16' />"+
-          "<text id='svgText' x='16' y='20' font-size='10pt' font-family='arial'"+ "font-weight='bold' text-anchor='middle' fill='black' >svg</text></svg>"
+          "<svg xmlns='http://www.w3.org/2000/svg' >" +
+          "<circle id='svgCircle' stroke='black' fill='yellow' cx='16'" +
+          "cy='16' r='16' /><text id='svgText' x='16' y='20'" +
+          "font-size='10pt' font-family='arial' font-weight='bold'" +
+          "text-anchor='middle' fill='black' >svg</text></svg>"
       }
     },
     vector: {

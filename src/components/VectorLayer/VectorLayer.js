@@ -25,7 +25,7 @@ VectorLayer.propTypes = {
 };
 
 VectorLayer.defaultProps = {
-  label: "Vector Layer"
+  label: "VectorLayer"
 };
 
 export default VectorLayer;

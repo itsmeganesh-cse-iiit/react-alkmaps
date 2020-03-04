@@ -13,8 +13,7 @@ export default class App extends Component {
         onLoad: this.onLoad,
         onError: this.onError,
         // url="https://maps.alk.com/api/1.2/alkmaps.js"
-        //! Copy rights alkmaps api key Remove and place your own API Key
-        // apikey: "",
+        apikey: "",
         center: { lat: -74.655522, long: 40.367494 }
       },
       vectorPointData: {
@@ -67,9 +66,11 @@ export default class App extends Component {
       <div>
         <ReactAlkMaps {...config}>
           <VectorLayer label="VectorLayer">
-            <VectorPoint {...vectorPointData.svgVector} />
             <VectorPoint {...vectorPointData.vector} />
+          </VectorLayer>
+          <VectorLayer label="VectorLayer">
             <VectorPoint {...vectorPointData.imageVector} />
+            <VectorPoint {...vectorPointData.svgVector} />
           </VectorLayer>
         </ReactAlkMaps>
       </div>

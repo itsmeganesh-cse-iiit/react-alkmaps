@@ -62,7 +62,7 @@ export default class ReactAlkMaps extends Component {
     let childrenWithProps = addPropsToChildren(children, childProps);
     if (childrenWithProps) {
       childrenWithProps = childrenWithProps.filter(
-        child => child.props.label === MAP_ITEMS.VECTORLAYER
+        child => child.type.name === MAP_ITEMS.VECTORLAYER
       );
     }
     return (
