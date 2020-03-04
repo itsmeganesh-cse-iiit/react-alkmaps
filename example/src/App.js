@@ -18,7 +18,7 @@ export default class App extends Component {
         onLoad: this.onLoad,
         onError: this.onError,
         // url="https://maps.alk.com/api/1.2/alkmaps.js"
-        apikey: "17CA0885B03A6B4FADBDC3D1A51DC0BD",
+        apikey: "",
         center: { lat: -74.655522, long: 40.367494 },
         zoom: 9
       },
