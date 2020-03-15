@@ -4,6 +4,9 @@
 # dependencies
 node_modules
 
+#vs code settings
+settings.json
+
 # builds
 build
 dist
