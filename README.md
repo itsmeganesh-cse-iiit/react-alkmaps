@@ -1,6 +1,7 @@
 # react-alkmaps
 
 ![Under Development](https://www.pngkey.com/png/detail/365-3650941_no-packages-are-available-right-now-website-under.png)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fitsmeganesh-cse-iiit%2Freact-alkmaps.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fitsmeganesh-cse-iiit%2Freact-alkmaps?ref=badge_shield)
 
 >
 
@@ -208,3 +209,6 @@ This project is [MIT licensed](#).
 [minified-image]: https://badgen.net/bundlephobia/min/react-alkmaps
 [minified-url]: https://www.npmjs.com/package/react-alkmaps
 [change-log-url]: https://github.com/itsmeganesh-cse-iiit/react-alkmaps/blob/master/CHANGELOG.md
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fitsmeganesh-cse-iiit%2Freact-alkmaps.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fitsmeganesh-cse-iiit%2Freact-alkmaps?ref=badge_large)
