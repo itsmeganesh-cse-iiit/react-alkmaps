@@ -1,6 +1,7 @@
 # react-alkmaps
 
 ![Under Development](https://www.pngkey.com/png/detail/365-3650941_no-packages-are-available-right-now-website-under.png)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3c21fa3a2ac54096a48197c1d10c9c19)](https://app.codacy.com/manual/itsmeganeshcse/react-alkmaps?utm_source=github.com&utm_medium=referral&utm_content=itsmeganesh-cse-iiit/react-alkmaps&utm_campaign=Badge_Grade_Dashboard)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fitsmeganesh-cse-iiit%2Freact-alkmaps.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fitsmeganesh-cse-iiit%2Freact-alkmaps?ref=badge_shield)
 
 >
